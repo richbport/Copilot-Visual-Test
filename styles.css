@@ -11,3 +11,12 @@
     background-color: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8)
 }
+
+.icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    margin: 0 0 16px;
+}
