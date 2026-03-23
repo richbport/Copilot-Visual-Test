@@ -18,5 +18,11 @@
 }
 
 h2 {
+    margin: 0 0 6px;
+    font-size: 20px;
+}
+
+p {
     margin: 0 0 16px;
+    color: #555;
 }
