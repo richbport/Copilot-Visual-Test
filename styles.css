@@ -26,3 +26,12 @@ p {
     margin: 0 0 16px;
     color: #555;
 }
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #4a6cf7;
+    color: white;
+    cursor: pointer;
+}
