@@ -9,7 +9,14 @@
     padding: 20px;
     border-radius: 12px;
     background-color: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8)
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.2);
+    margin: 16px;
+}
+
+.text-title__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .icon {
