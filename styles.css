@@ -47,23 +47,18 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
-    background: linear-gradient(
-        to bottom, 
-        #8a7ff0 0%,   /* light glossy highlight */
-        #6a5acd 40%,  /* the base color */
-        #5848c0 100%  /* darker bottom for depth */
-       );
-       box-shadow:
-       inset 0 1px 2px rgba(255, 255, 255, 0.4),  /* inner shine */
-        0 2px 4px rgba(0, 0, 0, 0.25);              /* outer depth */ 
+    background: linear-gradient(to bottom, #8a7ff0, #5848c0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: white;
     font-size: 16px;
     font-family: courier;
     font-weight: bold;
     cursor: pointer;
-    transition: all 300ms ease;
 }
 
 button:hover {
-    background: #2bcfca;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18); 
+    background: #8a7ff0;
 }
