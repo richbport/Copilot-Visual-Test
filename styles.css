@@ -13,7 +13,11 @@
     width: 260px;
     padding: 20px;
     border-radius: 12px;
-    background-color: #fff;
+    background: linear-gradient(
+      to bottom,
+      #fff 0%,
+      #dcdcdc 100%
+    );
     box-shadow: 0 4px 16px  rgba(0, 0, 0, 0.2);
     margin: 16px;
 }
