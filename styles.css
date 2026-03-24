@@ -45,7 +45,12 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
-    background: #249e9a;
+    background: linear-gradient(
+        to bottom, 
+        #8a7ff0 0%,   /* light glossy highlight */
+        #6a5acd 40%,  /* the base color */
+        #5848c0 100%  /* darker bottom for depth */
+       );
     color: white;
     font-size: 16px;
     font-family: courier;
